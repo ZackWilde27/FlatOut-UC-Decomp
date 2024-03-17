@@ -9,4 +9,6 @@ I would say it's the collector's edition but they didn't change the exe file so 
 
 My main priority is <a href="https://github.com/ZackWilde27/FlatOut-2-decomp/">FlatOut 2</a>, but a lot of the work I'm doing over there applies here so I can at least help get the ball rolling.
 
+DecompUC is my recreation so far
+
 Fouc.exe.gzf is the current Ghidra zip file, for anyone wanting to help with the project
