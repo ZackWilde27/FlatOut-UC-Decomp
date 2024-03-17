@@ -40,7 +40,6 @@
 
 // Something I found out that was a bit funny is that some data paths, including the cars, are still under FlatOut2
 
-// Change the value at 0x6F3DD0 to 0x5B2FB0 to force this function to be called.
 void CreateErrorMessageAndDie(const char* message, ...)
 {
 	char temp[1024];
@@ -54,6 +53,7 @@ void CreateErrorMessageAndDie(const char* message, ...)
 	ExitProcess(0);
 }
 
+// Change the value at 0x6F3DD0 to 0x5B2FB0 to force this function to be called.
 void DoNotCallEver(void (**jmpTable)())
 {
 	// Normal jumptable that I think is a default value
